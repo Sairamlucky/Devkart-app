@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+     <nav class="navbar">
+            <div class="logo">Devcart</div> 
+           <ul class="top-links">
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "products.html">Products</a></li>
+            <li><a href = "cart.html">Cart🛒
+                 <span id ="cart-count">0</span>
+            </a>
+            </li>
+           </ul>
+        </nav>
+        
+        <section class="featured">
+            <h2>All Products</h2>
+            <div class="filters">
+<input type="text" id="searchInput" placeholder="Search products...">
+
+<select id="categoryFilter">
+<option value="all">All Categories</option>
+<option value="Clothing">Clothing</option>
+<option value="Accessories">Accessories</option>
+<option value="Books">Books</option>
+</select>
+</div>
+        
+        <div class = "product-container" id = "productcontainer">
+
+        </div>
+        </section>
+        <script src = "script.js"></script>
+</body>
+</html>
